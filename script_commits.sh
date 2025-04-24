@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for i in {1..100}; do
+for i in {1..1200}; do
     echo "$i - $(date)" >> fichier.txt
     git add .
     git commit -m "efficiency #$i"
-    sleep 2
+    sleep 1
 done
